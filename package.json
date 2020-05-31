@@ -6,5 +6,8 @@
   "repository": "git@github.com:RHieger/nodejs-the-complete-guide.git",
   "author": "Robert Hieger <rhieger@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  }
 }
