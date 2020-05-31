@@ -1,0 +1,10 @@
+{
+  "name": "nodejs-the-complete-guide",
+  "version": "1.0.0",
+  "description": "Coursework for NodeJS--The Complete Guide",
+  "main": "index.js",
+  "repository": "git@github.com:RHieger/nodejs-the-complete-guide.git",
+  "author": "Robert Hieger <rhieger@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
