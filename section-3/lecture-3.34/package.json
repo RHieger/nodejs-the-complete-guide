@@ -1,0 +1,9 @@
+{
+  "name": "lecture-3.34",
+  "version": "1.0.0",
+  "description": "Redirecting HTTP Requests",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "CCO-1.0",
+  "private": false
+}
