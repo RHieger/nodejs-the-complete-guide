@@ -7,6 +7,7 @@
   "license": "CCO-1.0",
   "private": false,
   "devDependencies": {
-    "eslint": "^7.2.0"
+    "eslint": "^7.2.0",
+    "eslint-config-optimum-energy": "^0.6.3"
   }
 }
