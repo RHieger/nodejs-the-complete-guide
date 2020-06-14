@@ -1,0 +1,9 @@
+{
+  "name": "lecture-3.35",
+  "version": "1.0.0",
+  "description": "Parsing Request Bodies",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "CCO-1.0",
+  "private": false
+}
