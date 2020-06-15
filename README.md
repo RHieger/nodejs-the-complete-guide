@@ -1,4 +1,4 @@
-# NodeJS&mdash;The Complete Guide (incl. MVC, REST APIs, GraphQL)
+# NodeJS&mdash;The Complete Guide (incl. Deno, MVC, REST APIs, GraphQL)
 
 ## Instructor: Maximillian Schwarzmüller (Udemy.com)
 
