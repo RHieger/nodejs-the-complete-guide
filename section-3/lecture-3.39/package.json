@@ -1,0 +1,9 @@
+{
+  "name": "lecture-3.39",
+  "version": "1.0.0",
+  "description": "Using the Node Modules System",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "CCO-1.0",
+  "private": false
+}
