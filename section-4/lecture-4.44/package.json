@@ -1,0 +1,9 @@
+{
+  "name": "lecture-4.44",
+  "version": "1.0.0",
+  "description": "Installing 3rd Party Packages",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "CCO-1.0",
+  "private": false
+}
