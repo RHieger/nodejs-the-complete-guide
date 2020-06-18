@@ -1,0 +1,12 @@
+{
+  "name": "lecture-4.43",
+  "version": "1.0.0",
+  "description": "Understanding NPM Scripts",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "CCO-1.0",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  }
+}
