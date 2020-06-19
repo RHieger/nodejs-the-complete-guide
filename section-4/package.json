@@ -8,6 +8,10 @@
   "private": false,
   "devDependencies": {
     "eslint": "^7.2.0",
-    "eslint-config-optimum-energy": "^0.6.3"
+    "eslint-config-optimum-energy": "^0.6.3",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
   }
 }
