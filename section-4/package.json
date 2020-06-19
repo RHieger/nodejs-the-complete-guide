@@ -1,0 +1,9 @@
+{
+  "name": "section-4",
+  "version": "1.0.0",
+  "description": "Using nodemon for Autorestarts",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "CCO-1.0",
+  "private": false
+}
