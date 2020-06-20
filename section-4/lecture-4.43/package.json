@@ -4,7 +4,7 @@
   "description": "Understanding NPM Scripts",
   "main": "app.js",
   "author": "Robert Hieger",
-  "license": "CCO-1.0",
+  "license": "MIT",
   "private": false,
   "scripts": {
     "start": "node app.js"

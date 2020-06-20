@@ -4,7 +4,7 @@
   "description": "Installing 3rd Party Packages",
   "main": "app.js",
   "author": "Robert Hieger",
-  "license": "CCO-1.0",
+  "license": "MIT",
   "private": false,
   "devDependencies": {
     "eslint": "^7.2.0",

@@ -4,7 +4,7 @@
   "description": "Finding & Fixing Syntax Errors",
   "main": "app.js",
   "author": "Robert Hieger",
-  "license": "CCO-1.0",
+  "license": "MIT",
   "private": false,
   "devDependencies": {
     "eslint": "^7.3.0",
