@@ -1,0 +1,9 @@
+{
+  "name": "lecture-5.60",
+  "version": "1.0.0",
+  "description": "Installing Express.js",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false
+}
