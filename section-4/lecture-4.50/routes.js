@@ -14,6 +14,12 @@ const requestHandler = (req, res) => {
                </form>
                </body>`);
     res.write("</html>");
+    // Next line omits return keyword. This causes
+    // runtime error because of fall-through to next
+    // code, and eventual re-definition of HTTP header,
+    // which is not allowed. In runtime, this causes
+    // the app to crash.
+    //res.end();
     return res.end();
   }
   
