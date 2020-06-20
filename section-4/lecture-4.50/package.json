@@ -1,0 +1,9 @@
+{
+  "name": "lecture-4.50",
+  "version": "1.0.0",
+  "description": "Dealing with Runtime Errors",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "CCO-1.0",
+  "private": false
+}
