@@ -1,0 +1,9 @@
+{
+  "name": "lecture-4.49",
+  "version": "1.0.0",
+  "description": "Finding & Fixing Syntax Errors",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "CCO-1.0",
+  "private": false
+}
