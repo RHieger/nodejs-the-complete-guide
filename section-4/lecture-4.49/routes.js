@@ -15,6 +15,8 @@ const requestHandler = (req, res) => {
                </body>`);
     res.write("</html>");
     return res.end();
+  // Missing closing curly brace on this line causes error
+  // to be thrown. Corrected below:
   }
   
   if (url === "/message" && method === "POST") {
