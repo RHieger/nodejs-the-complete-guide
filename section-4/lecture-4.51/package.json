@@ -1,0 +1,9 @@
+{
+  "name": "lecture-4.51",
+  "version": "1.0.0",
+  "description": "Logical Errors",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false
+}
