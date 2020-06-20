@@ -1,11 +1,14 @@
 {
-  "name": "lecture-3.34",
+  "name": "lecture-4.43",
   "version": "1.0.0",
-  "description": "Redirecting HTTP Requests",
+  "description": "Understanding NPM Scripts",
   "main": "app.js",
   "author": "Robert Hieger",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
   "devDependencies": {
     "eslint": "^7.2.0",
     "eslint-config-optimum-energy": "^0.6.3"
