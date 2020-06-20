@@ -25,7 +25,10 @@ const requestHandler = (req, res) => {
     });
     return req.on("end", () => {
       const parsedBody = Buffer.concat(body).toString();
-      const message = parsedBody.split("=")[1];
+      // Logic Error: Referencing index 0 of parsedBody will
+      // return the key of the key-value pair in const
+      // message, rather than the value as intended.
+      const message = parsedBody.split("=")[0];
       fs.writeFile("message.txt", message, (err) => {
         res.statusCode = 302;
         res.setHeader("Location", "/");
