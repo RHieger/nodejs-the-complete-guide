@@ -13,5 +13,8 @@
   },
   "scripts": {
     "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
