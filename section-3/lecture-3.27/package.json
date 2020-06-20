@@ -4,7 +4,7 @@
   "description": "Lecture-3.27: Build a Node.js Server",
   "main": "app.js",
   "author": "Robert Hieger",
-  "license": "CCO-1.0",
+  "license": "MIT",
   "private": false,
   "devDependencies": {
     "eslint": "^7.2.0",

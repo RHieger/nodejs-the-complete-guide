@@ -4,7 +4,7 @@
   "description": "Demonstrate Event-Driven Code (Asynchronous)",
   "main": "app.js",
   "author": "Robert Hieger",
-  "license": "CCO-1.0",
+  "license": "MIT",
   "private": false,
   "devDependencies": {
     "eslint": "^7.2.0",
