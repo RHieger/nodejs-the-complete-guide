@@ -5,5 +5,9 @@
   "main": "app.js",
   "author": "Robert Hieger",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "eslint": "^7.3.0",
+    "eslint-config-optimum-energy": "^0.6.3"
+  }
 }
