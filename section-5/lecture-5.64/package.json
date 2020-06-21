@@ -1,0 +1,9 @@
+{
+  "name": "lecture-5.64",
+  "version": "1.0.0",
+  "description": "Handling Different Routes",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false
+}
