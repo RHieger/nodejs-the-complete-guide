@@ -1,0 +1,9 @@
+{
+  "name": "lecture-5.61",
+  "version": "1.0.0",
+  "description": "Adding Middleware",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false
+}
