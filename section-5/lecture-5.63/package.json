@@ -1,0 +1,9 @@
+{
+  "name": "lecture-5.63",
+  "version": "1.0.0",
+  "description": "Express.js - Looking Behind the Scenes",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false
+}
