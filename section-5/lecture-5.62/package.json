@@ -1,0 +1,9 @@
+{
+  "name": "lecture-5.62",
+  "version": "1.0.0",
+  "description": "How Middleware Works",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false
+}
