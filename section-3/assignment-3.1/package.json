@@ -9,5 +9,8 @@
   "devDependencies": {
     "eslint": "^7.4.0",
     "eslint-config-optimum-energy": "^0.6.3"
+  },
+  "scripts": {
+    "start": "node app.js"
   }
 }
