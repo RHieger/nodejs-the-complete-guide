@@ -23,15 +23,45 @@ const httpServer = http.createServer( (request, response) => {
   const method = request.method;
   
   if (url === '/') {
+    // response.write(`<html>
+    //   <head>
+    //     <title>Simple Node.js Server</title>
+    //   </head>
+    //   <body>
+    //     <h1>Hi, I'm the Node.js HTTP Server!</h1>
+    //   </body>
+    // </html>`);
+    // return response.end();
+
+    // STEP 3. Add a form with user name <input> to
+    // '/' route and submit a POST request to
+    // '/create-user' upon submit button click.
+
     response.write(`<html>
       <head>
-        <title>Simple Node.js Server</title>
+        <title>Add a User</title>
       </head>
       <body>
         <h1>Hi, I'm the Node.js HTTP Server!</h1>
+        <form action="/create-user" method="POST">
+          <h2>Create New User</h2>
+          <label for="firstName">
+            First Name:&nbsp;&nbsp;
+          </label>
+          <input type="text" name="firstName" />
+          <br /><br />
+          <label for="lastName">
+            &nbsp;Last Name:&nbsp;&nbsp;
+          </label>
+          <input type="text" name="lastName" />
+          <br /><br />
+          <button type="submit" style="cursor: pointer;">
+            Add New User
+          </button>
+        </form>
       </body>
-    </html>`);
-    return response.end();
+      </head>`)
+      return response.end();
   }
 
   if (url === '/users') {
