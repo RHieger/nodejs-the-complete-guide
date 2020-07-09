@@ -33,6 +33,25 @@ const httpServer = http.createServer( (request, response) => {
     </html>`);
     return response.end();
   }
+
+  if (url === '/users') {
+    response.write(`<html>
+      <head>
+        <title>User List</title>
+      </head>
+      <body>
+        <h1>User List</h1>
+        <ul>
+          <li>Ada Lovelace</li>
+          <li>Vanevar Bush</li>
+          <li>Alan Turing</li>
+          <li>Sir Tim Berners-Lee</li>
+        </ul>
+      </body>
+    </html>`
+    );
+    return response.end();
+  }
 });
 
 httpServer.listen(port, () => {
