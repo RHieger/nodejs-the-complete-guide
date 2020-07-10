@@ -1,4 +1,5 @@
 const http = require('http');
+const fs = require('fs');
 const port = 3000;
 
 // STEP 1. Spin up a Node.js-driven Server (on port 3000)
@@ -81,6 +82,17 @@ const httpServer = http.createServer( (request, response) => {
     </html>`
     );
     return response.end();
+  }
+  // STEP 4. Add '/create-user' route, parse POSTed data
+  // and log it to console.
+
+  if (url === '/create-user' && method === "POST") {
+    request.on('data', (chunk) => {
+      console.log(`NEW USER
+      Raw Data: ${chunk.toString()}`);
+    });
+    response.writeHead(302, {Location: '/'})
+    response.end();
   }
 });
 
