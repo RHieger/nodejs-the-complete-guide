@@ -1,0 +1,17 @@
+{
+  "name": "assignment-3.1",
+  "version": "1.0.0",
+  "description": "Create a simple Node.js server with simple routing.",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-optimum-energy": "^0.6.3",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
