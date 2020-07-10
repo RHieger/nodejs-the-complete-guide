@@ -1,5 +1,6 @@
 const http = require('http');
 const fs = require('fs');
+const { brotliDecompressSync } = require('zlib');
 const port = 3000;
 
 // STEP 1. Spin up a Node.js-driven Server (on port 3000)
@@ -47,14 +48,10 @@ const httpServer = http.createServer( (request, response) => {
         <form action="/create-user" method="POST">
           <h2>Create New User</h2>
           <label for="firstName">
-            First Name:&nbsp;&nbsp;
+          <label for="userName">
+            &nbsp;UserName:&nbsp;&nbsp;
           </label>
-          <input type="text" name="firstName" />
-          <br /><br />
-          <label for="lastName">
-            &nbsp;Last Name:&nbsp;&nbsp;
-          </label>
-          <input type="text" name="lastName" />
+          <input type="text" name="userName" />
           <br /><br />
           <button type="submit" style="cursor: pointer;">
             Add New User
@@ -87,13 +84,18 @@ const httpServer = http.createServer( (request, response) => {
   // and log it to console.
 
   if (url === '/create-user' && method === "POST") {
+    const body = [];
     request.on('data', (chunk) => {
-      console.log(`NEW USER
-      Raw Data: ${chunk.toString()}`);
+      body.push(chunk);
     });
-    response.writeHead(302, {Location: '/'})
-    response.end();
+    request.on('end', () => {
+      const parsedBody = Buffer.concat(body).toString();
+      console.log(parsedBody.split('=')[1]);      
+    });
+    response.statusCode = 302;
+    response.setHeader('Location', '/');
   }
+  response.end();
 });
 
 httpServer.listen(port, () => {
