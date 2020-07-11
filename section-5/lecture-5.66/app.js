@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require('body-parser');
 
 const adminRoutes = require('./routes/admin');
+const shopRoutes = require('./routes/shop');
 
 const port = 3000;
 const app = express();
@@ -18,10 +19,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.use(adminRoutes);
-
-app.use("/", (req, res, next) => {
-  res.send("<h1>Hello from Express!</h1>");
-});
+app.use(shopRoutes);
 
 app.listen(port, () => {
   console.log(`HTTP Server Listening on Port ${port}...`)
