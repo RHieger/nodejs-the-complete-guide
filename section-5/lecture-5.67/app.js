@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 
 const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
+const { response } = require("express");
 
 const port = 3000;
 const app = express();
@@ -20,6 +21,13 @@ app.use(bodyParser.urlencoded({
 
 app.use(adminRoutes);
 app.use(shopRoutes);
+
+// 404 Error Handler
+app.use( (request, response, next) => {
+  response.status(404).send(`<h1 style="color: blue; margin-top: 25px;
+border-bottom: 1.5px solid #a9a9a9; width: 22.5%;">
+Error 404: Page Not Found</h1>`);
+});
 
 app.listen(port, () => {
   console.log(`HTTP Server Listening on Port ${port}...`)
