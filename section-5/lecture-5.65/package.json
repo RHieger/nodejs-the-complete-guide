@@ -1,0 +1,9 @@
+{
+  "name": "lecture-5.65",
+  "version": "1.0.0",
+  "description": "Lecture 5.65--Limiting Middleware Execution to POST Requests",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false
+}
