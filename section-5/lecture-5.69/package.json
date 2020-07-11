@@ -1,0 +1,12 @@
+{
+  "name": "lecture-5.69",
+  "version": "1.0.0",
+  "description": "Lecture 5.69--Creating HTML Pages",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {},
+  "dependencies": {},
+  "scripts": {}
+}
