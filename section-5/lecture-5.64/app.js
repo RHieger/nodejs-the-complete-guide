@@ -9,7 +9,12 @@ app.use("/", (req, res, next) => {
 
 app.use("/add-product", (req, res, next) => {
   console.log("In the middleware!");
-  res.send("<h1>The &ldquo;Add Product&rdquo; Page</h1>");
+  res.send(`<form action="/product" method="POST">
+  <input type="text" name="title">
+  <button style="cursor: poiter;" type="submit">
+    Add Product
+  </button>
+</form>`);
 });
 
 app.use("/", (req, res, next) => {
