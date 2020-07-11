@@ -1,6 +1,9 @@
 const express = require("express");
 const bodyParser = require('body-parser');
 
+const adminRoutes = require('./routes/admin');
+
+const port = 3000;
 const app = express();
 
 // body-parser was deprecated in 2014 because Express 4.x 
@@ -14,8 +17,12 @@ app.use(bodyParser.urlencoded({
   extended: false
 }));
 
+app.use(adminRoutes);
+
 app.use("/", (req, res, next) => {
   res.send("<h1>Hello from Express!</h1>");
 });
 
-app.listen(3000);
+app.listen(port, () => {
+  console.log(`HTTP Server Listening on Port ${port}...`)
+});
