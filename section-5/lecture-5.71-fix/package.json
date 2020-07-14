@@ -5,5 +5,10 @@
   "main": "app.js",
   "author": "Robert Hieger",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {},
+  "dependencies": {},
+  "scripts": {
+    "start": "nodemon app.js"
+  }
 }
