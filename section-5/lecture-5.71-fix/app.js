@@ -1,14 +1,17 @@
 const path = require('path');
-const http = require('http');
 
 const express = require('express');
 const bodyParser = require('body-parser');
 
+const port = 3000;
+
 const app = express();
 
-// TBD: Add in routing
+const adminRoutes = require('./routes/admin');
 
-const port = 3000;
+app.use(bodyParser.urlencoded({extended: false}));
+
+app.use('/', adminRoutes);
 
 app.listen(port, () => {
   console.log(`HTTP Server listening on Port ${port}...`);
