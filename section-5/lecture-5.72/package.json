@@ -1,0 +1,14 @@
+{
+  "name": "lecture-5.72",
+  "version": "1.0.0",
+  "description": "Lecture 5.72--Using a Helper Function for Navigation",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {},
+  "dependencies": {},
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
