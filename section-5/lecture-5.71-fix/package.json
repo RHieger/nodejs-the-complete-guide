@@ -1,7 +1,7 @@
 {
-  "name": "lecture-5.72",
+  "name": "lecture-5.71-fix",
   "version": "1.0.0",
-  "description": "Lecture 5.72--Using a Helper Function for Navigation",
+  "description": "Lecture 5.71: Fix of Lecture-5.71",
   "main": "app.js",
   "author": "Robert Hieger",
   "license": "MIT",
