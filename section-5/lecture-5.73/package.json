@@ -1,0 +1,12 @@
+{
+  "name": "lecture-5.73",
+  "version": "1.0.0",
+  "description": "Lecture 5.73--Styling Our Pages",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {},
+  "dependencies": {},
+  "scripts": {}
+}
