@@ -6,6 +6,25 @@
   <title>Add User</title>
 </head>
 <body>
-  
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">User List</a></li>
+        <li><a href="/admin/add-user">Add User</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form action="/add-user" method="POST">
+      <h1>Add a User</h1>
+      <label for="firstName">First Name</label>
+      <input type="text" name="firstName" id="firstName">
+      <label for="lastName">Last Name</label>
+      <input type="text" name="lastName" id="lastName">
+      <label for="dob">Date of Birth</label>
+      <input type="text" name="dob" id="dob">
+      <button type="submit">Add User</button>
+    </form>
+  </main>
 </body>
 </html>
