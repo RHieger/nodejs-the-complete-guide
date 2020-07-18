@@ -17,6 +17,7 @@ const port = 3000;
 const app = express();
 
 app.use(bodyParser.urlencoded( {extended: false} ));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', addUserRoute);
 app.use(usersRoute);
