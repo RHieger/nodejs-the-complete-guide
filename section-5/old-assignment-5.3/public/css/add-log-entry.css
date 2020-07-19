@@ -1,0 +1,75 @@
+/* Styling for Add Log Entry Page */
+ 
+main {
+  margin: 45px 0;
+}
+
+form {
+  width: 600px;
+  border: 3px inset #ee8f59;
+  border-radius: 10px;
+  margin-left: 125px;
+  padding: 35px;
+  background-color: #faefe9;
+}
+
+.formTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  font-variant: small-caps;
+  color: #b45823;
+  text-shadow: 1px 3px 4px #ee8f59;
+  letter-spacing: 0.75px;
+  border-bottom: 2px solid #b45823;
+  border-spacing: 9px;
+  margin-bottom: 35px;
+}
+
+label, input {
+  display: block;
+}
+
+label {
+  font-size: 22px;
+  font-weight: 900;
+  font-variant: small-caps;
+  color: #b45823;
+}
+
+input {
+  height: 30px;
+  width: 200px;
+  margin-bottom: 25px;
+  border: 2px inset silver;
+  border-radius: 10px;
+  outline: none;
+  background-color: navajowhite;
+  padding: 3px 12px;
+  font-size: 16px;
+  font-weight: 900;
+  color: #ee8f59;
+}
+
+button {
+  width: 150px;
+  height: 35px;
+  border: 3px outset silver;
+  border-radius: 10px;
+  outline: none;
+  background-color: #ee8f59;
+  font-size: 16px;
+  font-weight: 700;
+  color: snow;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background-color: snow;
+  color: #ee8f59;
+  transition: all 0.75s;
+}
+
+button:active {
+  border-style: inset;
+}

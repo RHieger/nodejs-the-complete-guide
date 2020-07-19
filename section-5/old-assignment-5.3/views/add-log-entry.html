@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<!-- Add Log Entry Page -->
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title>Fitness Log: Steps</title>
+
+  <link rel="stylesheet" href="/css/main.css" />
+
+  <link rel="stylesheet" href="/css/add-log-entry.css" />
+
+</head>
+
+<body>
+
+  <header class="mastHead">
+
+    <div class="mainTitle">
+      <h1>My Fitness Log</h1>
+    </div>
+
+
+    <div class="mainNav">
+
+      <nav>
+        <ul>
+          <li><a href="/">Daily Steps</a></li>
+          <li><a class="active" href="./add-log-entry">Add Daily Log Entry</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <main>
+
+      <form action="/add-log-entry" method="POST">
+
+        <div>
+          <h2 class="formTitle">Add a Log Entry</h2>
+        </div>
+
+        <div>
+          <label for="date">Date</label>
+          <input type="text" name="date" id="date" placeholder="e.g. 2019-01-01" required />
+        </div>
+
+        <div>
+          <label for="steps">Daily Steps</label>
+          <input type="text" name="steps" id="steps" />
+        </div>
+
+        <div>
+          <label for="miles" id="miles">Miles Walked</label>
+          <input type="text" name="miles" id="miles" placeholder="e.g. 1.25" required />
+        </div>
+
+        <div>
+          <label for="calories">Calories Burned</label>
+          <input type="text" name="calories" id="calories" />
+        </div>
+
+        <div>
+          <button type="submit">Add Log Entry</button>
+        </div>
+
+      </form>
+
+    </main>
+
+  </header>
+
+</body>
+
+</html>

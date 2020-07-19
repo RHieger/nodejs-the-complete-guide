@@ -1,0 +1,141 @@
+/* main.css
+ *
+ * Main styles for Physical Fitness Log App
+ *
+*/
+  
+/* Base font for application */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900,900i&display=swap&subset=latin-ext');
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+ 
+.mastHead {
+    margin: 0;
+    padding: 1rem 3rem;
+    background-color: #b45823;
+    height: 115px;
+}
+ 
+.mainTitle  {
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 1.25px;
+    color: snow;
+    text-shadow: 1px 3px 4px #ee8f59;
+}
+ 
+.mainNav  {
+    margin-top: 15px;
+}
+ 
+ul {
+   list-style-type: none;
+}
+ 
+li {
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px;
+    background-color: #ee8f59;
+    border: 3px solid snow;
+    border-radius: 10px;
+}
+ 
+li a {
+    color: snow;
+    text-decoration: none;
+}
+ 
+li a:hover,
+li a:active  {
+    background-color: snow;
+    color: black;
+}
+ 
+li  a.active {
+    color: black;
+}
+ 
+main {
+    margin: 30px 50px;
+}
+ 
+.pageTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    font-variant: small-caps;
+    color: #b45823;
+    text-shadow: 1px 3px 4px #ee8f59;
+    letter-spacing: 0.75px;
+    border-bottom: 2px solid #b45823;
+    border-spacing: 3px;
+}
+ 
+table {
+    table-layout: auto;
+    width: 850px;
+    margin: 35px auto 0 auto;
+    border-collapse: collapse;
+    border: 3px inset #ee8f59;
+}
+ 
+thead {
+    font-size: 20px;
+    font-weight: 900;
+    font-variant: small-caps;
+    background-color: #b45823;
+    color: snow;
+}
+ 
+th, td {
+    padding: 3px 15px;
+    border: 2px dotted #ee8f59;
+}
+ 
+td {
+    text-align: right;
+    font-size: 18px;
+}
+ 
+tbody th {
+    text-align: right;
+    background-color: #e7e0dd;
+    color: #b45823;
+}
+ 
+tbody td {
+    font-weight: 600;
+    background-color: #e7e0dd;
+    color: #b45823;
+}
+ 
+tfoot {
+    background-color: #e7e0dd;
+}
+ 
+tfoot tr th {
+    padding: 6px 0;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+ 
+tfoot tr th a {
+    text-decoration: none;
+    color: #b45823;
+}
+ 
+tfoot tr th a:hover {
+    text-decoration: underline;
+    font-weight: 900;
+}
