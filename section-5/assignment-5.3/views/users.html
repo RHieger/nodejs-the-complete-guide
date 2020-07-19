@@ -5,47 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Users</title>
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/user-list.css">
 </head>
 <body>
   <header class="main_header">
     <nav class="main_header__nav">
       <ul class="main_header__nav-list">
         <li class="main_header__nav-item"><a href="/">Add User</a></li>
+        <li class="main_header__nav-item"><a class="active" href="/users">User List</a></li>
       </ul>
     </nav>
   </header>
-  <main>
+  <main class="user_list">
     <h1>User List</h1>
-    <table>
+    <table class="user_list__table">
+      <colgroup>
+        <col>
+        <col>
+        <col>
+      </colgroup>
       <thead>
         <tr>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Date of Birth</th>
+          <th class="col1">First Name</th>
+          <th class="col2">Last Name</th>
+          <th class="col3">Date of Birth</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Jane</td>
-          <td>Doe</td>
-          <td>07-12-1976</td>
+          <td class="col1">Jane</td>
+          <td class="col2">Doe</td>
+          <td class="col3">1976-07-12</td>
         </tr>
         <tr>
-          <td>Joe</td>
-          <td>Blow</td>
-          <td>03-15-1972</td>
+          <td class="col1">Joe</td>
+          <td class="col2">Blow</td>
+          <td class="col3">1972-03-15</td>
         </tr>
         <tr>
-          <td>Berta</td>
-          <td>Smith</td>
-          <td>05-09-1982</td>
+          <td class="col1">Berta</td>
+          <td class="col2">Smith</td>
+          <td class="col3">1982-05-09</td>
         </tr>
         <tr>
-          <td>Gene</td>
-          <td>Pool</td>
-          <td>12-10-1998</td>
+          <td class="col1">Gene</td>
+          <td class="col2">Pool</td>
+          <td class="col3">1998-12-10</td>
         </tr>
       </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="3"><a href="/">Add User</a></th>
+        </tr>
+      </tfoot>
     </table>
   </main>
 </body>
