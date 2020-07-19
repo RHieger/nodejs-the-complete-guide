@@ -1,0 +1,14 @@
+{
+  "name": "old-assignment-5.3",
+  "version": "1.0.0",
+  "description": "Original Assignment-5.3--Time to Practice - Navigation",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {},
+  "dependencies": {},
+  "scripts": {
+    
+  }
+}
