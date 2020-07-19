@@ -16,6 +16,8 @@ const port = 3000;
 
 const app = express();
 
+// STEP 3. See documentation in add-user.html.
+
 app.use(bodyParser.urlencoded( {extended: false} ));
 app.use(express.static(path.join(__dirname, 'public')));
 
