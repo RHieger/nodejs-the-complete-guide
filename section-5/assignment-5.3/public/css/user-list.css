@@ -1,0 +1,79 @@
+.user_list {
+  margin: 1.5rem 0 0 10.25rem;
+}
+
+.user_list h1 {
+  font-family: 'Inter', 'Helvetica', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.1225rem;
+  color: rgb(0, 100, 0);
+  margin-bottom: 1.5rem;
+}
+
+.user_list__table {
+  border: 2px solid rgb(0, 100, 0);
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.user_list__table .col1,
+.user_list__table .col2 {
+  text-align: left;
+}
+
+.user_list__table .col3 {
+  text-align: right;
+}
+
+.user_list__table colgroup:first-child,
+.user_list__table colgroup:nth-child(2) {
+  width: 40%;
+}
+
+.user_list__table colgroup:nth-child(3) {
+  width: 20%;
+}
+
+.user_list__table thead,
+.user_list__table tfoot {
+  background-color: rgba(0, 100, 0, 0.15);
+}
+
+.user_list__table thead th,
+.user_list__table tfoot th {
+  border: 1.5px solid rgb(0, 100, 0);
+  font-family: 'Inter', 'Helvetica', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(0, 100, 0);
+  padding: 6px 15px;
+}
+
+.user_list__table tfoot th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 800;
+}
+
+.user_list__table tfoot th a {
+  text-decoration: none;
+  color: rgb(0, 100, 0);
+}
+
+.user_list__table tfoot th a:hover,
+.user_list__table tfoot th a:active {
+  color: #11e911;
+  transition: 1s ease-in-out;
+}
+
+.user_list__table tbody td {
+  border: 1.5px solid rgb(0, 100, 0);
+  padding: 6px 15px;
+  font-family: 'Lora', 'Palatino', serif;
+  font-size: 18px;
+  font-weight: 700px;
+}
+
+.user_list__table tbody tr:nth-child(even) {
+  background-color: rgba(17, 233, 17, 0.15);
+}

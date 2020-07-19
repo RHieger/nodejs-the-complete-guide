@@ -1,0 +1,20 @@
+{
+  "name": "lecture-5.61",
+  "version": "1.0.0",
+  "description": "Adding Middleware",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^7.3.0",
+    "eslint-config-optimum-energy": "^0.6.3",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}

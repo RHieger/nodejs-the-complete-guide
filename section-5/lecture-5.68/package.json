@@ -1,0 +1,21 @@
+{
+  "name": "lecture-5.68",
+  "version": "1.0.0",
+  "description": "Lecture 5.68--Filtering Paths",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-optimum-energy": "^0.6.3",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}

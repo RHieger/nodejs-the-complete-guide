@@ -1,0 +1,64 @@
+.main_content {
+  margin: 2rem 0 0 10rem;
+}
+
+/* Form Styling */
+
+.add_user {
+  width: 50%;
+  height: auto;
+  padding: 25px 35px;
+  border: 1.5px outset #11e911;
+  border-radius: 5px;
+  background-color: rgba(0, 100, 0, 0.15);
+}
+
+.add_user h1 {
+  font-family: 'Inter', 'Helvetica', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.1225rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: darkgreen;
+}
+
+.add_user__label {
+  display: block;
+  margin-bottom: 3px;
+  font-family: 'Lora', 'Palatino', serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: darkgreen;
+}
+
+.add_user__input {
+  display: block;
+  margin-bottom: 25px;
+  width: 20rem;
+  height: 1.25rem;
+  border: 1.5px solid rgb(0, 100, 0);
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-family: 'Lora', 'Palatino', serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.add_user button {
+  border: 1.5px solid rgb(0, 100, 0);
+  border-radius: 5px;
+  padding: 6px 15px;
+  font-family: 'Inter', 'Helvetica', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  color: rgb(0, 100, 0);
+  background-color: white;
+  cursor: pointer;
+}
+
+.add_user button:hover,
+.add_user button:active {
+  color: white;
+  background-color: rgb(0, 100, 0);
+  transition: all 0.75s ease-in-out;
+}
