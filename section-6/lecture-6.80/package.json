@@ -1,0 +1,12 @@
+{
+  "name": "lecture-6.80",
+  "version": "1.0.0",
+  "description": "Lecture 6.80--Installing & Implementing Pug",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {},
+  "dependencies": {},
+  "scripts": {}
+}
