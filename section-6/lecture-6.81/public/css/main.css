@@ -51,6 +51,15 @@ main {
   color: #ffeb3b;
 }
 
+/* My Added Code for minor refinement to
+   the h1 heading
+*/
+
+h1 {
+  margin-left: 35px;
+  color: #00695c;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
