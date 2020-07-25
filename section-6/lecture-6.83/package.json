@@ -6,7 +6,10 @@
   "author": "Robert Hieger",
   "license": "MIT",
   "private": false,
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-optimum-energy": "^0.6.3"
+  },
   "dependencies": {},
   "scripts": {}
 }
