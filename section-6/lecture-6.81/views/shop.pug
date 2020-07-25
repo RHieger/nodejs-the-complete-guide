@@ -3,7 +3,7 @@ html(lang="en")
   head
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    title Shop
+    title #{docTitle}
     link(rel="stylesheet", href="/css/main.css")
     link(rel="stylesheet", href="/css/product.css")
   body
@@ -15,5 +15,14 @@ html(lang="en")
           li.main-header__item
             a.active(href="admin/add-product") Add Product
     main
-      h1 My Products
-      p List of all the products&hellip;
+      .grid
+        article.card.product-item
+          header.card__header
+            h1.product__title Great Book
+          div.card__image
+            img(src="../images/knowledge-1052010.jpg", alt="Book")
+            div.card__content
+              h2.product__price $19.99
+              p.product_description A very interesting book about so many even more interesting things!
+            div.card__actions
+              button.btn Add to Cart
