@@ -1,0 +1,12 @@
+{
+  "name": "lecture-6.84",
+  "version": "1.0.0",
+  "description": "Lecture 6.84--Adding a Layout",
+  "main": "app.js",
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {},
+  "dependencies": {},
+  "scripts": {}
+}
